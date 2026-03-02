@@ -45,6 +45,8 @@ setup(
             'wheel_odometry = my_robot_controller.wheel_odometry:main',
             'lidar_simulator = my_robot_controller.lidar_simulator:main',
             'static_transform_publisher = my_robot_controller.static_transform_publisher:main',
+            'traffic_light = my_robot_controller.traffic_light:main',
+            'car = my_robot_controller.car:main',
         ],
     },
 )

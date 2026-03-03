@@ -47,6 +47,8 @@ setup(
             'static_transform_publisher = my_robot_controller.static_transform_publisher:main',
             'traffic_light = my_robot_controller.traffic_light:main',
             'car = my_robot_controller.car:main',
+            "temperature_sensor = my_robot_controller.temperature_sensor:main",
+            "tof_simulator = my_robot_controller.tof_simulator:main",
         ],
     },
 )

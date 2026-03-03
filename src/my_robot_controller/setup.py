@@ -49,6 +49,7 @@ setup(
             'car = my_robot_controller.car:main',
             "temperature_sensor = my_robot_controller.temperature_sensor:main",
             "tof_simulator = my_robot_controller.tof_simulator:main",
+            "dtof_lidar_simulator = my_robot_controller.dtof_lidar_simulator:main",
         ],
     },
 )
